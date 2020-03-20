@@ -1,10 +1,10 @@
 import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import UserRegisterForm from "@/components/UserRegisterForm.vue";
 
-describe("HelloWorld.vue", () => {
+describe("UserRegisterForm.vue", () => {
   it("renders props.msg when passed", () => {
     const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
+    const wrapper = shallowMount(UserRegisterForm, {
       propsData: { msg }
     });
     expect(wrapper.text()).toMatch(msg);
