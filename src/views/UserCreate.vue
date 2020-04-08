@@ -1,16 +1,14 @@
 <template>
-  <div class="home">
-    <UserRegisterForm />
-  </div>
+  <UserForm />
 </template>
 
 <script>
 import { defineComponent } from "@vue/composition-api";
-import UserRegisterForm from "@/components/UserRegisterForm.vue";
+import UserForm from "@/components/UserForm.vue";
 
 export default defineComponent({
   components: {
-    UserRegisterForm
+    UserForm
   }
 });
 </script>
